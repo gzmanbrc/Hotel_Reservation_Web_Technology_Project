@@ -1,0 +1,5 @@
+C:\Users\gzman\source\repos\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.csproj.AssemblyReference.cache
+C:\Users\gzman\source\repos\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gzman\source\repos\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.AssemblyInfoInputs.cache
+C:\Users\gzman\source\repos\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.AssemblyInfo.cs
+C:\Users\gzman\source\repos\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.csproj.CoreCompileInputs.cache
