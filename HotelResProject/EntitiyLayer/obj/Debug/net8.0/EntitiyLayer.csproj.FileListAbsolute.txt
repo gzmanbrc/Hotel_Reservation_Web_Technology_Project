@@ -3,3 +3,16 @@ C:\Users\gzman\source\repos\HotelResProject\EntitiyLayer\obj\Debug\net8.0\Entiti
 C:\Users\gzman\source\repos\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.AssemblyInfoInputs.cache
 C:\Users\gzman\source\repos\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.AssemblyInfo.cs
 C:\Users\gzman\source\repos\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.csproj.CoreCompileInputs.cache
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\bin\Debug\net8.0\EntitiyLayer.deps.json
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\bin\Debug\net8.0\EntitiyLayer.dll
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\bin\Debug\net8.0\EntitiyLayer.pdb
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.csproj.AssemblyReference.cache
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.AssemblyInfoInputs.cache
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.AssemblyInfo.cs
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.csproj.CoreCompileInputs.cache
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.sourcelink.json
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.dll
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\refint\EntitiyLayer.dll
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntitiyLayer.pdb
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\ref\EntitiyLayer.dll

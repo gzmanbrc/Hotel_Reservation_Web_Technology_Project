@@ -588,11 +588,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\gzman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\BusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\EntitiyLayer.csproj": {}
+    "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\EntitiyLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\EntitiyLayer.csproj": {
+    "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\EntitiyLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\EntitiyLayer.csproj",
+        "projectUniqueName": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\EntitiyLayer.csproj",
         "projectName": "EntitiyLayer",
-        "projectPath": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\EntitiyLayer.csproj",
+        "projectPath": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\EntitiyLayer.csproj",
         "packagesPath": "C:\\Users\\gzman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\obj\\",
+        "outputPath": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.4, )"

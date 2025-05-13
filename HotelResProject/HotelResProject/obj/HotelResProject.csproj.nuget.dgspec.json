@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gzman\\source\\repos\\HotelResProject\\HotelResProject\\HotelResProject.csproj": {}
+    "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\HotelResProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gzman\\source\\repos\\HotelResProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\gzman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\EntitiyLayer.csproj": {
-                "projectPath": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\EntitiyLayer.csproj"
+              "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\EntitiyLayer.csproj": {
+    "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\EntitiyLayer.csproj",
-        "projectName": "EntitiyLayer",
-        "projectPath": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\EntitiyLayer.csproj",
+        "projectUniqueName": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\EntityLayer.csproj",
+        "projectName": "EntityLayer",
+        "projectPath": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\gzman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\obj\\",
+        "outputPath": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -135,6 +135,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.4, )"
@@ -160,14 +164,14 @@
         }
       }
     },
-    "C:\\Users\\gzman\\source\\repos\\HotelResProject\\HotelResProject\\HotelResProject.csproj": {
+    "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\HotelResProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\HotelResProject\\HotelResProject.csproj",
+        "projectUniqueName": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\HotelResProject.csproj",
         "projectName": "HotelResProject",
-        "projectPath": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\HotelResProject\\HotelResProject.csproj",
+        "projectPath": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\HotelResProject.csproj",
         "packagesPath": "C:\\Users\\gzman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\HotelResProject\\obj\\",
+        "outputPath": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -188,8 +192,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gzman\\source\\repos\\HotelResProject\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -213,6 +220,16 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [

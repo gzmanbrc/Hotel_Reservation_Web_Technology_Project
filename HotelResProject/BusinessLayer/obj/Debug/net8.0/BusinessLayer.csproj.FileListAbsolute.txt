@@ -10,3 +10,16 @@ C:\Users\gzman\source\repos\HotelResProject\BusinessLayer\obj\Debug\net8.0\Busin
 C:\Users\gzman\source\repos\HotelResProject\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
 C:\Users\gzman\source\repos\HotelResProject\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
 C:\Users\gzman\source\repos\HotelResProject\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\BusinessLayer\obj\Debug\net8.0\BusinessLayer.sourcelink.json
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll

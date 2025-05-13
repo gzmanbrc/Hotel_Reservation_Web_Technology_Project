@@ -1,0 +1,13 @@
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\bin\Debug\net8.0\EntityLayer.deps.json
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\bin\Debug\net8.0\EntityLayer.dll
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\bin\Debug\net8.0\EntityLayer.pdb
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfo.cs
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntityLayer.sourcelink.json
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntityLayer.dll
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\refint\EntityLayer.dll
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\EntityLayer.pdb
+C:\Users\gzman\Documents\GitHub\Hotel_Reservation_Web_Technology_Project\HotelResProject\EntitiyLayer\obj\Debug\net8.0\ref\EntityLayer.dll

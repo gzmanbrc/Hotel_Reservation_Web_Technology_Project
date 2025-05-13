@@ -1,50 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\",
+  "WorkspaceRootPath": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntitiyLayer.csproj|c:\\users\\gzman\\source\\repos\\hotelresproject\\entitiylayer\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntitiyLayer.csproj|solutionrelative:entitiylayer\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|c:\\users\\gzman\\documents\\github\\hotel_reservation_web_technology_project\\hotelresproject\\hotelresproject\\views\\roomtype\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|solutionrelative:hotelresproject\\views\\roomtype\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|c:\\users\\gzman\\source\\repos\\hotelresproject\\hotelresproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|solutionrelative:hotelresproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|c:\\users\\gzman\\documents\\github\\hotel_reservation_web_technology_project\\hotelresproject\\hotelresproject\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|solutionrelative:hotelresproject\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|c:\\users\\gzman\\source\\repos\\hotelresproject\\hotelresproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|solutionrelative:hotelresproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|c:\\users\\gzman\\documents\\github\\hotel_reservation_web_technology_project\\hotelresproject\\hotelresproject\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|solutionrelative:hotelresproject\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|c:\\users\\gzman\\source\\repos\\hotelresproject\\hotelresproject\\hotelresproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|solutionrelative:hotelresproject\\hotelresproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9AD1B95E-00B2-4D61-BBF0-2A77F1720E3F}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\gzman\\documents\\github\\hotel_reservation_web_technology_project\\hotelresproject\\dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9AD1B95E-00B2-4D61-BBF0-2A77F1720E3F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AD1B95E-00B2-4D61-BBF0-2A77F1720E3F}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\gzman\\source\\repos\\hotelresproject\\dataaccesslayer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntityLayer.csproj|c:\\users\\gzman\\documents\\github\\hotel_reservation_web_technology_project\\hotelresproject\\entitiylayer\\entitylayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntityLayer.csproj|solutionrelative:entitiylayer\\entitylayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AD1B95E-00B2-4D61-BBF0-2A77F1720E3F}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\gzman\\documents\\github\\hotel_reservation_web_technology_project\\hotelresproject\\dataaccesslayer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AD1B95E-00B2-4D61-BBF0-2A77F1720E3F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntitiyLayer.csproj|c:\\users\\gzman\\source\\repos\\hotelresproject\\entitiylayer\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntitiyLayer.csproj|solutionrelative:entitiylayer\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntitiyLayer.csproj|c:\\users\\gzman\\source\\repos\\hotelresproject\\entitiylayer\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntitiyLayer.csproj|solutionrelative:entitiylayer\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntitiyLayer.csproj|c:\\users\\gzman\\source\\repos\\hotelresproject\\entitiylayer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntitiyLayer.csproj|solutionrelative:entitiylayer\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntitiyLayer.csproj|c:\\users\\gzman\\source\\repos\\hotelresproject\\entitiylayer\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntitiyLayer.csproj|solutionrelative:entitiylayer\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntitiyLayer.csproj|c:\\users\\gzman\\source\\repos\\hotelresproject\\entitiylayer\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntitiyLayer.csproj|solutionrelative:entitiylayer\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntitiyLayer.csproj|c:\\users\\gzman\\source\\repos\\hotelresproject\\entitiylayer\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntitiyLayer.csproj|solutionrelative:entitiylayer\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|c:\\users\\gzman\\documents\\github\\hotel_reservation_web_technology_project\\hotelresproject\\hotelresproject\\wwwroot\\admin\\pages\\examples\\blank.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|solutionrelative:hotelresproject\\wwwroot\\admin\\pages\\examples\\blank.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,140 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\HotelResProject\\Program.cs",
-              "RelativeDocumentMoniker": "HotelResProject\\Program.cs",
-              "ToolTip": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\HotelResProject\\Program.cs",
-              "RelativeToolTip": "HotelResProject\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T14:17:43.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\HotelResProject\\appsettings.json",
-              "RelativeDocumentMoniker": "HotelResProject\\appsettings.json",
-              "ToolTip": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\HotelResProject\\appsettings.json",
-              "RelativeToolTip": "HotelResProject\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-12T14:08:02.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HotelResProject.csproj",
-              "DocumentMoniker": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\HotelResProject\\HotelResProject.csproj",
-              "RelativeDocumentMoniker": "HotelResProject\\HotelResProject.csproj",
-              "ToolTip": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\HotelResProject\\HotelResProject.csproj",
-              "RelativeToolTip": "HotelResProject\\HotelResProject.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-12T14:07:48.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\DataAccessLayer\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\DataAccessLayer\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "DataAccessLayer\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:59:23.126Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\Booking.cs",
-              "RelativeDocumentMoniker": "EntitiyLayer\\Booking.cs",
-              "ToolTip": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\Booking.cs",
-              "RelativeToolTip": "EntitiyLayer\\Booking.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBoAAAA8AAAAAAAAAA==",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\DataAccessLayer\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\DataAccessLayer\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:10:25.119Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\Payment.cs",
-              "RelativeDocumentMoniker": "EntitiyLayer\\Payment.cs",
-              "ToolTip": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\Payment.cs",
-              "RelativeToolTip": "EntitiyLayer\\Payment.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:11:52.323Z",
+              "WhenOpened": "2025-05-13T16:13:03.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\Customer.cs",
-              "RelativeDocumentMoniker": "EntitiyLayer\\Customer.cs",
-              "ToolTip": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\Customer.cs",
-              "RelativeToolTip": "EntitiyLayer\\Customer.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA3wBcAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:11:39.128Z"
+              "DocumentIndex": 3,
+              "Title": "DataAccessLayer",
+              "DocumentMoniker": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ToolTip": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeToolTip": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-13T16:12:57.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RoomType.cs",
-              "DocumentMoniker": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\RoomType.cs",
-              "RelativeDocumentMoniker": "EntitiyLayer\\RoomType.cs",
-              "ToolTip": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\RoomType.cs",
-              "RelativeToolTip": "EntitiyLayer\\RoomType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:11:25.86Z"
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\Views\\RoomType\\Index.cshtml",
+              "RelativeDocumentMoniker": "HotelResProject\\Views\\RoomType\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\Views\\RoomType\\Index.cshtml*",
+              "RelativeToolTip": "HotelResProject\\Views\\RoomType\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:47:56.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Room.cs",
-              "DocumentMoniker": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\Room.cs",
-              "RelativeDocumentMoniker": "EntitiyLayer\\Room.cs",
-              "ToolTip": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\Room.cs",
-              "RelativeToolTip": "EntitiyLayer\\Room.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAYwBcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "RoomTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\Controllers\\RoomTypeController.cs",
+              "RelativeDocumentMoniker": "HotelResProject\\Controllers\\RoomTypeController.cs",
+              "ToolTip": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\Controllers\\RoomTypeController.cs",
+              "RelativeToolTip": "HotelResProject\\Controllers\\RoomTypeController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA7wAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:11:11.141Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Hotel.cs",
-              "DocumentMoniker": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\Hotel.cs",
-              "RelativeDocumentMoniker": "EntitiyLayer\\Hotel.cs",
-              "ToolTip": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\Hotel.cs",
-              "RelativeToolTip": "EntitiyLayer\\Hotel.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:10:56.237Z"
+              "WhenOpened": "2025-05-13T15:46:12.911Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Employees.cs",
-              "DocumentMoniker": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\Employees.cs",
-              "RelativeDocumentMoniker": "EntitiyLayer\\Employees.cs",
-              "ToolTip": "C:\\Users\\gzman\\source\\repos\\HotelResProject\\EntitiyLayer\\Employees.cs",
-              "RelativeToolTip": "EntitiyLayer\\Employees.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:10:41.377Z"
+              "Title": "blank.html",
+              "DocumentMoniker": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\wwwroot\\Admin\\pages\\examples\\blank.html",
+              "RelativeDocumentMoniker": "HotelResProject\\wwwroot\\Admin\\pages\\examples\\blank.html",
+              "ToolTip": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\wwwroot\\Admin\\pages\\examples\\blank.html",
+              "RelativeToolTip": "HotelResProject\\wwwroot\\Admin\\pages\\examples\\blank.html",
+              "ViewState": "AgIAAHUDAAAAAAAAAADwv4sDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-13T15:40:24.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_adminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\Views\\Shared\\_adminLayout.cshtml",
+              "RelativeDocumentMoniker": "HotelResProject\\Views\\Shared\\_adminLayout.cshtml",
+              "ToolTip": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\Views\\Shared\\_adminLayout.cshtml",
+              "RelativeToolTip": "HotelResProject\\Views\\Shared\\_adminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T15:39:56.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EntityLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\EntityLayer.csproj",
+              "RelativeDocumentMoniker": "EntitiyLayer\\EntityLayer.csproj",
+              "ToolTip": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\EntityLayer.csproj",
+              "RelativeToolTip": "EntitiyLayer\\EntityLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-13T16:16:40.488Z",
+              "EditorCaption": ""
             }
           ]
         }

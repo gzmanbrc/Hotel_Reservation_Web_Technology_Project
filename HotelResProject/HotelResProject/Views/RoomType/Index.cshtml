@@ -1,0 +1,27 @@
+﻿@using EntityLayer.Entities
+@model List<RoomType>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+<h1 class="bg-primary my-5 w-100 text-center">Room Types</h1>
+<a class="btn btn-success my-3" href="/RoomType/Create"><i class="bi bi-building-fill-add"></i>New</a>
+<table class="table table-striped">
+    <tr>
+        <td>Room Type Name</td>
+        <td>Room Price</td>
+        <td>Edit</td>
+        <td>Delete</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.RoomName</td>
+            <td>@item.RoomPrice</td>
+            <td><a class="btn btn-warning" href="/RoomType/Edit/@item. RoomTypeId"><i class="bi bi-building-fill-up"></i>Edit</a></td>
+            <td><a class="btn btn-danger" href="/RoomType/Delete/@item.RoomTypeId"><i class="bi bi-building-fill-x"></i>Delete</a></td>
+        </tr>
+    }
+</table>
