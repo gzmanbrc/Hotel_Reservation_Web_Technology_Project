@@ -28,5 +28,25 @@ namespace HotelResProject.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        [HttpPost]
+        public IActionResult Login(string email, string password, string role)
+        {
+            // Basit örnek
+            if (email == "admin@example.com" && password == "1234" && role == "admin")
+            {
+                return RedirectToAction("AdminDashboard"); // admin sayfasý varsa
+            }
+            else if (email == "user@example.com" && password == "1234")
+            {
+                return RedirectToAction("Index"); // kullanýcý anasayfasý
+            }
+            else
+            {
+                ViewBag.Error = "Hatalý giriþ bilgileri.";
+                return View();
+            }
+        }
+
     }
 }

@@ -1,0 +1,48 @@
+﻿@model EntityLayer.Entities.User
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+
+<div class="login-container">
+    <h2 class="login-title">Gizelya Hotel Login</h2>
+    <form asp-action="Login" method="post" class="login-form">
+        <div class="form-group">
+            <label>Kullanıcı Tipi</label>
+            <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                <input type="radio" id="user" name="role" value="user" checked onclick="toggleAdmin()" />
+                <label for="user">User</label>
+                <input type="radio" id="admin" name="role" value="admin" onclick="toggleAdmin()" />
+                <label for="admin">Admin</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required placeholder="Enter your username" />
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required placeholder="Enter your password" />
+        </div>
+        <div id="user-buttons" class="login-buttons">
+            <button type="submit" class="login-btn user-btn">Login</button>
+            <a href="/Account/Register" class="login-btn admin-btn" style="text-decoration:none;">Sign Up</a>
+        </div>
+        <div id="admin-buttons" class="login-buttons" style="display:none;">
+            <button type="submit" class="login-btn admin-btn">Login</button>
+        </div>
+    </form>
+    <script>
+        function toggleAdmin() {
+            var isAdmin = document.getElementById('admin').checked;
+            document.getElementById('user-buttons').style.display = isAdmin ? 'none' : 'block';
+            document.getElementById('admin-buttons').style.display = isAdmin ? 'block' : 'none';
+        }
+        // Sayfa yüklenince doğru butonları göster
+        window.onload = toggleAdmin;
+    </script>
+
+    @if (ViewBag.Error != null)
+    {
+    }
+</div>

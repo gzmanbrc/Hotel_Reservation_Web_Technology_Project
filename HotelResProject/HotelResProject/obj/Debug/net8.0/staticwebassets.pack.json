@@ -9717,8 +9717,20 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\wwwroot\\js\\jquery.countdown.js",
+      "PackagePath": "staticwebassets\\js\\jquery.countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\wwwroot\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.countdown.min.js"
     },
     {
       "Id": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\wwwroot\\js\\site.js",

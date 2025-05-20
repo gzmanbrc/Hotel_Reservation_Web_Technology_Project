@@ -22,7 +22,7 @@ namespace DataAccessLayer.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("EntitiyLayer.Booking", b =>
+            modelBuilder.Entity("EntityLayer.Entities.Booking", b =>
                 {
                     b.Property<int>("BookingId")
                         .ValueGeneratedOnAdd()
@@ -54,7 +54,7 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Bookings");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Customer", b =>
+            modelBuilder.Entity("EntityLayer.Entities.Customer", b =>
                 {
                     b.Property<int>("CustomerId")
                         .ValueGeneratedOnAdd()
@@ -102,7 +102,7 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Customers");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Employees", b =>
+            modelBuilder.Entity("EntityLayer.Entities.Employees", b =>
                 {
                     b.Property<int>("StaffId")
                         .ValueGeneratedOnAdd()
@@ -155,7 +155,7 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Employees");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Hotel", b =>
+            modelBuilder.Entity("EntityLayer.Entities.Hotel", b =>
                 {
                     b.Property<int>("HotelId")
                         .ValueGeneratedOnAdd()
@@ -191,7 +191,7 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Hotels");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Payment", b =>
+            modelBuilder.Entity("EntityLayer.Entities.Payment", b =>
                 {
                     b.Property<int>("PaymentId")
                         .ValueGeneratedOnAdd()
@@ -229,7 +229,7 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Payment");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Room", b =>
+            modelBuilder.Entity("EntityLayer.Entities.Room", b =>
                 {
                     b.Property<int>("RoomId")
                         .ValueGeneratedOnAdd()
@@ -260,7 +260,7 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Rooms");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.RoomType", b =>
+            modelBuilder.Entity("EntityLayer.Entities.RoomType", b =>
                 {
                     b.Property<int>("RoomTypeId")
                         .ValueGeneratedOnAdd()
@@ -280,15 +280,40 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Roomtypes");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Booking", b =>
+            modelBuilder.Entity("EntityLayer.Entities.User", b =>
                 {
-                    b.HasOne("EntitiyLayer.Customer", "Customer")
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Username")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("EntityLayer.Entities.Booking", b =>
+                {
+                    b.HasOne("EntityLayer.Entities.Customer", "Customer")
                         .WithMany("Booking")
                         .HasForeignKey("CustomerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("EntitiyLayer.Room", "Room")
+                    b.HasOne("EntityLayer.Entities.Room", "Room")
                         .WithMany("Bookings")
                         .HasForeignKey("RoomId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -299,9 +324,9 @@ namespace DataAccessLayer.Migrations
                     b.Navigation("Room");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Employees", b =>
+            modelBuilder.Entity("EntityLayer.Entities.Employees", b =>
                 {
-                    b.HasOne("EntitiyLayer.Hotel", "Hotel")
+                    b.HasOne("EntityLayer.Entities.Hotel", "Hotel")
                         .WithMany("Employees")
                         .HasForeignKey("HotelId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -310,13 +335,13 @@ namespace DataAccessLayer.Migrations
                     b.Navigation("Hotel");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Payment", b =>
+            modelBuilder.Entity("EntityLayer.Entities.Payment", b =>
                 {
-                    b.HasOne("EntitiyLayer.Booking", "Booking")
+                    b.HasOne("EntityLayer.Entities.Booking", "Booking")
                         .WithMany("Payments")
                         .HasForeignKey("BookingId");
 
-                    b.HasOne("EntitiyLayer.Customer", "Customer")
+                    b.HasOne("EntityLayer.Entities.Customer", "Customer")
                         .WithMany("Payments")
                         .HasForeignKey("CustomerId");
 
@@ -325,15 +350,15 @@ namespace DataAccessLayer.Migrations
                     b.Navigation("Customer");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Room", b =>
+            modelBuilder.Entity("EntityLayer.Entities.Room", b =>
                 {
-                    b.HasOne("EntitiyLayer.Hotel", "Hotel")
+                    b.HasOne("EntityLayer.Entities.Hotel", "Hotel")
                         .WithMany("Room")
                         .HasForeignKey("HotelId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("EntitiyLayer.RoomType", "RoomType")
+                    b.HasOne("EntityLayer.Entities.RoomType", "RoomType")
                         .WithMany("Room")
                         .HasForeignKey("RoomTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -344,31 +369,31 @@ namespace DataAccessLayer.Migrations
                     b.Navigation("RoomType");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Booking", b =>
+            modelBuilder.Entity("EntityLayer.Entities.Booking", b =>
                 {
                     b.Navigation("Payments");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Customer", b =>
+            modelBuilder.Entity("EntityLayer.Entities.Customer", b =>
                 {
                     b.Navigation("Booking");
 
                     b.Navigation("Payments");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Hotel", b =>
+            modelBuilder.Entity("EntityLayer.Entities.Hotel", b =>
                 {
                     b.Navigation("Employees");
 
                     b.Navigation("Room");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.Room", b =>
+            modelBuilder.Entity("EntityLayer.Entities.Room", b =>
                 {
                     b.Navigation("Bookings");
                 });
 
-            modelBuilder.Entity("EntitiyLayer.RoomType", b =>
+            modelBuilder.Entity("EntityLayer.Entities.RoomType", b =>
                 {
                     b.Navigation("Room");
                 });
