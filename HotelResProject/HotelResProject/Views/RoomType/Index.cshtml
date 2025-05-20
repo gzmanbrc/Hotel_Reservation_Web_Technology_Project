@@ -20,8 +20,8 @@
         <tr>
             <td>@item.RoomName</td>
             <td>@item.RoomPrice</td>
-            <td><a class="btn btn-warning" href="/RoomType/Edit/@item. RoomTypeId"><i class="bi bi-building-fill-up"></i>Edit</a></td>
-            <td><a class="btn btn-danger" href="/RoomType/Delete/@item.RoomTypeId"><i class="bi bi-building-fill-x"></i>Delete</a></td>
+            <td><a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.RoomTypeId"><i class="bi bi-building-fill-up"></i>Edit</a></td>
+            <td><a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.RoomTypeId"><i class="bi bi-building-fill-x"></i>Delete</a></td>
         </tr>
     }
 </table>
