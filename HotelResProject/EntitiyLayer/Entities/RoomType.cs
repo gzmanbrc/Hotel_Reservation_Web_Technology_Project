@@ -24,5 +24,8 @@ namespace EntityLayer.Entities
         public double? RoomPrice { get; set; }
         public virtual List <Room>? Room { get; set; }
 
+        [Display(Name = "Room Count")]
+        public int RoomCount { get; set; }
+
     }
 }

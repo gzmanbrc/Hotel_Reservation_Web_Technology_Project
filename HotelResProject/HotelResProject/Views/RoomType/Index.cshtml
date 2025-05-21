@@ -6,22 +6,37 @@
     Layout = "~/Views/Shared/_adminLayout.cshtml";
 }
 
-<h1 class="bg-primary my-5 w-100 text-center">Room Types</h1>
-<a class="btn btn-success my-3" href="/RoomType/Create"><i class="bi bi-building-fill-add"></i>New</a>
-<table class="table table-striped">
-    <tr>
-        <td>Room Type Name</td>
-        <td>Room Price</td>
-        <td>Edit</td>
-        <td>Delete</td>
-    </tr>
-    @foreach (var item in Model)
-    {
+<h1 class="bg-primary my-5 w-100 text-center text-white p-3 rounded">Room Details</h1>
+<a class="btn btn-success my-3" href="/RoomType/Create"><i class="bi bi-building-fill-add"></i> New</a>
+
+<table class="table table-striped table-bordered table-hover">
+    <thead class="table-dark">
         <tr>
-            <td>@item.RoomName</td>
-            <td>@item.RoomPrice</td>
-            <td><a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.RoomTypeId"><i class="bi bi-building-fill-up"></i>Edit</a></td>
-            <td><a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.RoomTypeId"><i class="bi bi-building-fill-x"></i>Delete</a></td>
+            <th>Room Type Name</th>
+            <th>Room Price</th>
+            <th>Room Count</th>
+            <th>Edit</th>
+            <th>Delete</th>
         </tr>
-    }
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.RoomName</td>
+                <td>@String.Format("{0:C}", item.RoomPrice)</td>
+                <td>@item.RoomCount</td>
+                <td>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.RoomTypeId">
+                        <i class="bi bi-pencil-square"></i> Edit
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.RoomTypeId">
+                        <i class="bi bi-trash"></i> Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>

@@ -4,6 +4,98 @@
     Layout = null;
 }
 
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #4ca1af, #c4e0e5);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .login-container {
+        width: 100%;
+        max-width: 400px;
+        margin: 80px auto;
+        background-color: #fff;
+        padding: 40px 30px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .login-title {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #333;
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 6px;
+        font-weight: 600;
+        color: #333;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px 12px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 15px;
+        transition: 0.3s ease;
+    }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            border-color: #4ca1af;
+            outline: none;
+            box-shadow: 0 0 5px rgba(76, 161, 175, 0.5);
+        }
+
+    .login-buttons {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .login-btn {
+        width: 100%;
+        padding: 10px 15px;
+        background-color: #4ca1af;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 600;
+        text-align: center;
+        transition: background-color 0.3s ease;
+    }
+
+        .login-btn:hover {
+            background-color: #3b8895;
+        }
+
+        .login-btn.admin-btn {
+            background-color: #6c5ce7;
+        }
+
+            .login-btn.admin-btn:hover {
+                background-color: #5a4db8;
+            }
+
+    /* Radyo butonları için ufak stil */
+    input[type="radio"] {
+        accent-color: #4ca1af;
+        transform: scale(1.2);
+    }
+</style>
+
 <div class="login-container">
     <h2 class="login-title">Gizelya Hotel Login</h2>
     <form asp-action="Login" method="post" class="login-form">
@@ -35,8 +127,8 @@
     <script>
         function toggleAdmin() {
             var isAdmin = document.getElementById('admin').checked;
-            document.getElementById('user-buttons').style.display = isAdmin ? 'none' : 'block';
-            document.getElementById('admin-buttons').style.display = isAdmin ? 'block' : 'none';
+            document.getElementById('user-buttons').style.display = isAdmin ? 'none' : 'flex';
+            document.getElementById('admin-buttons').style.display = isAdmin ? 'flex' : 'none';
         }
         // Sayfa yüklenince doğru butonları göster
         window.onload = toggleAdmin;

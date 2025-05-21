@@ -29,6 +29,14 @@
                 </div>
             </div>
 
+            <div class="form-group row mb-3">
+                <label asp-for="RoomCount" class="col-4 col-form-label">Room Count</label>
+                <div class="col-8">
+                    <input asp-for="RoomCount" type="number" step="0.01" class="form-control border shadow" />
+                    <span asp-validation-for="RoomPrice" class="text-danger"></span>
+                </div>
+            </div>
+
             <div class="form-group row mt-4">
                 <div class="offset-4 col-8">
                     <button type="submit" class="btn btn-primary">Edit</button>
@@ -37,4 +45,3 @@
         </form>
     </div>
 </div>
-

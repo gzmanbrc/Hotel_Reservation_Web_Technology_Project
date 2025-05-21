@@ -1,116 +1,88 @@
-﻿<!--Login olduktan sonraki çıkan dashboard sayfası-->
-<!--bu sayfa yerine ana programda direkt ana sayfaya bağlanacak-->
-
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Dashboard</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"] - Admin Panel</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
     <style>
-        .dashboard-container {
-            max-width: 1200px;
-            margin: 50px auto;
-            padding: 20px;
+        body {
+            background-color: #f5f8fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
-        .dashboard-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 30px;
-        }
-
-        .welcome-text {
-            font-size: 24px;
-            color: #24416B;
-        }
-
-        .dashboard-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            margin-top: 30px;
-        }
-
-        .dashboard-card {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-
-            .dashboard-card h3 {
-                color: #24416B;
-                margin-bottom: 15px;
-            }
-
-            .dashboard-card p {
-                color: #666;
-                margin-bottom: 10px;
-            }
-
-        .logout-btn {
-            background-color: #CC8C18;
+        header {
+            background-color: #24416B;
             color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background-color 0.3s;
+            padding: 15px 30px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-align: center;
         }
 
-            .logout-btn:hover {
-                background-color: #b37a15;
+        nav {
+            background-color: #162f52;
+            padding: 10px 0;
+        }
+
+            nav a {
+                color: #ffffffcc;
+                margin: 0 20px;
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 1.1rem;
             }
+
+                nav a:hover {
+                    color: #cc8c18;
+                }
+
+        main {
+            margin: 30px auto;
+            max-width: 1200px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgb(0 0 0 / 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            color: #666;
+            margin-top: 40px;
+        }
     </style>
 </head>
 <body>
-    <div class="dashboard-container">
-        <div class="dashboard-header">
-            <h1 class="welcome-text">Welcome to Your Dashboard</h1>
-            <button class="logout-btn" onclick="logout()">Logout</button>
+    <header>
+        Hotel Admin Panel
+    </header>
+
+    <nav>
+        <div class="container d-flex justify-content-center">
+            <a href="/RoomType/Index">Room Types</a>
+            <a href="/Room/Index">Rooms</a>
+            <a href="/Booking/Index">Bookings</a>
+            <a href="/Account/Logout">Logout</a>
         </div>
+    </nav>
 
-        <div class="dashboard-grid">
-            <div class="dashboard-card">
-                <h3>My Bookings</h3>
-                <p>View and manage your hotel bookings</p>
-                <button class="flex1">
-                    <span>View Bookings</span>
-                    <i class="fas fa-arrow-circle-right"></i>
-                </button>
-            </div>
+    <main>
+        @RenderBody()
+    </main>
 
-            <div class="dashboard-card">
-                <h3>Profile Settings</h3>
-                <p>Update your personal information</p>
-                <button class="flex1">
-                    <span>Edit Profile</span>
-                    <i class="fas fa-arrow-circle-right"></i>
-                </button>
-            </div>
+    <footer>
+        &copy; 2025 Hotel Management System
+    </footer>
 
-            <div class="dashboard-card">
-                <h3>Payment History</h3>
-                <p>View your payment transactions</p>
-                <button class="flex1">
-                    <span>View Payments</span>
-                    <i class="fas fa-arrow-circle-right"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-    @RenderBody()
-
-    <script>
-        function logout() {
-            // Add logout logic here
-            window.location.href = 'login.html';
-        }
-    </script>
+    <!-- Bootstrap JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html> 
+</html>

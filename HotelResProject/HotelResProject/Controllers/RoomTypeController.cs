@@ -1,6 +1,7 @@
 ﻿using DataAccessLayer.Data;
 using EntityLayer.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace HotelResProject.Controllers
 {
@@ -15,7 +16,19 @@ namespace HotelResProject.Controllers
 
         public IActionResult Index()
         {
-            var RoomTypeList = _context.Roomtypes.ToList();
+            var RoomTypeList = _context.Roomtypes
+                .Include(rt => rt.Room) // Room'ları dahil et
+                .ToList();
+
+            // RoomCount değerini hesapla ve kaydet
+            foreach (var roomType in RoomTypeList)
+            {
+                roomType.RoomCount = roomType.Room?.Count ?? 0;
+                _context.Roomtypes.Update(roomType);
+            }
+
+            _context.SaveChanges();
+
             return View(RoomTypeList);
         }
 
@@ -34,26 +47,27 @@ namespace HotelResProject.Controllers
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
-            return View();
-
+            return View(gelen);
         }
+
 
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            RoomType? duzelt = _context.Roomtypes.Where(u => u.RoomTypeId == id).FirstOrDefault();
+            RoomType? duzelt = _context.Roomtypes.FirstOrDefault(u => u.RoomTypeId == id);
             if (duzelt == null)
             {
                 return NotFound();
             }
             return View(duzelt);
         }
+
         [HttpPost]
         public IActionResult Edit(RoomType gelen)
         {
-
             if (ModelState.IsValid && gelen.RoomTypeId > 0)
             {
+                // RoomCount'ı elle güncellemiyoruz, Index'te zaten ayarlanıyor
                 _context.Roomtypes.Update(gelen);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
@@ -64,19 +78,19 @@ namespace HotelResProject.Controllers
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            RoomType? duzelt = _context.Roomtypes.Where(u => u.RoomTypeId == id).FirstOrDefault();
-            if (duzelt == null)
+            RoomType? silinecek = _context.Roomtypes.FirstOrDefault(u => u.RoomTypeId == id);
+            if (silinecek == null)
             {
                 return NotFound();
             }
-            return View(duzelt);
+            return View(silinecek);
         }
+
         [HttpPost]
         public IActionResult Delete(RoomType gelen)
         {
-
-            RoomType? silme = _context.Roomtypes.Where(u => u.RoomTypeId ==gelen.RoomTypeId).FirstOrDefault();
-            if (silme!= null)
+            RoomType? silme = _context.Roomtypes.FirstOrDefault(u => u.RoomTypeId == gelen.RoomTypeId);
+            if (silme != null)
             {
                 _context.Roomtypes.Remove(silme);
                 _context.SaveChanges();
@@ -84,6 +98,6 @@ namespace HotelResProject.Controllers
             }
             return View();
         }
-
     }
 }
+
