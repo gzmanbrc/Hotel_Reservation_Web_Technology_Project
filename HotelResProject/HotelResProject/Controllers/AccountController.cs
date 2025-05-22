@@ -1,10 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Linq;
+using DataAccessLayer.Data;
+using EntityLayer.Entities;
 
 namespace HotelResProject.Controllers
 {
     public class AccountController : Controller
     {
+        private readonly ApplicationDbContext _context;
+
+        public AccountController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -27,15 +36,23 @@ namespace HotelResProject.Controllers
             }
             else if (role == "user" && username == "user" && password == "1234")
             {
-                // User login → Home/Index (rezervasyon sayfası)
-                return RedirectToAction("Index", "Home");
+                // Get user from database
+                var user = _context.Users.FirstOrDefault(u => u.Username == username);
+                if (user != null)
+                {
+                    // Store user ID in session
+                    HttpContext.Session.SetInt32("UserId", user.Id);
+                }
+
+                // User login → Reservation/Index (rezervasyon sayfası)
+                return RedirectToAction("Index", "Reservation");
             }
             // Hata mesajı gönder
             ViewBag.Error = "Kullanıcı adı, şifre veya rol yanlış!";
             return View();
         }
 
-        // GET: /Account/Register (istersen bunu da ekleyebilirsin)
+        // GET: /Account/Register
         public ActionResult Register()
         {
             return View();
@@ -46,7 +63,7 @@ namespace HotelResProject.Controllers
         public ActionResult Register(string username, string password)
         {
             // Kullanıcıyı kaydetme işlemi
-            using (var context = new DataAccessLayer.Data.ApplicationDbContext(new Microsoft.EntityFrameworkCore.DbContextOptions<DataAccessLayer.Data.ApplicationDbContext>()))
+            using (var context = new ApplicationDbContext(new Microsoft.EntityFrameworkCore.DbContextOptions<ApplicationDbContext>()))
             {
                 // Aynı kullanıcı adı var mı kontrol et
                 var existingUser = context.Users.FirstOrDefault(u => u.Username == username);
@@ -55,9 +72,12 @@ namespace HotelResProject.Controllers
                     ViewBag.Error = "Bu kullanıcı adı zaten mevcut!";
                     return View();
                 }
-                var user = new EntityLayer.Entities.User { Username = username, Password = password, Role = "user" };
+                var user = new User { Username = username, Password = password, Role = "user" };
                 context.Users.Add(user);
                 context.SaveChanges();
+
+                // Store user ID in session
+                HttpContext.Session.SetInt32("UserId", user.Id);
             }
             return RedirectToAction("Login");
         }
@@ -65,12 +85,10 @@ namespace HotelResProject.Controllers
         // Çıkış (Logout)
         public ActionResult Logout()
         {
-            // Oturumu temizle (örnek)
-            //Session.Clear();
+            // Clear session
+            HttpContext.Session.Clear();
             return RedirectToAction("Login");
         }
-
-
     }
 }
 

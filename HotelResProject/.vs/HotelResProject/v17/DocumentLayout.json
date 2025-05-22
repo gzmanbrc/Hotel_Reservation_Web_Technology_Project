@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|c:\\users\\gzman\\documents\\github\\hotel_reservation_web_technology_project\\hotelresproject\\hotelresproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|solutionrelative:hotelresproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|c:\\users\\gzman\\documents\\github\\hotel_reservation_web_technology_project\\hotelresproject\\hotelresproject\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|solutionrelative:hotelresproject\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|c:\\users\\gzman\\documents\\github\\hotel_reservation_web_technology_project\\hotelresproject\\hotelresproject\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|solutionrelative:hotelresproject\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntityLayer.csproj|c:\\users\\gzman\\documents\\github\\hotel_reservation_web_technology_project\\hotelresproject\\entitiylayer\\entities\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13D1265F-24A4-4F6A-8DD5-A074AC22357B}|EntitiyLayer\\EntityLayer.csproj|solutionrelative:entitiylayer\\entities\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|c:\\users\\gzman\\documents\\github\\hotel_reservation_web_technology_project\\hotelresproject\\hotelresproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A710772-E49F-4ABD-8DE2-12455CFBF900}|HotelResProject\\HotelResProject.csproj|solutionrelative:hotelresproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "HotelResProject\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "HotelResProject\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAAwIwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T15:00:10.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RoomType.cs",
-              "DocumentMoniker": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\Entities\\RoomType.cs",
-              "RelativeDocumentMoniker": "EntitiyLayer\\Entities\\RoomType.cs",
-              "ToolTip": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\EntitiyLayer\\Entities\\RoomType.cs",
-              "RelativeToolTip": "EntitiyLayer\\Entities\\RoomType.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T13:53:25.718Z",
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "HotelResProject\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "HotelResProject\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAAPgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-22T08:00:10.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RoomTypeController.cs",
-              "DocumentMoniker": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\Controllers\\RoomTypeController.cs",
-              "RelativeDocumentMoniker": "HotelResProject\\Controllers\\RoomTypeController.cs",
-              "ToolTip": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\Controllers\\RoomTypeController.cs",
-              "RelativeToolTip": "HotelResProject\\Controllers\\RoomTypeController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAcwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T13:47:27.198Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HotelResProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gzman\\Documents\\GitHub\\Hotel_Reservation_Web_Technology_Project\\HotelResProject\\HotelResProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HotelResProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwF0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T07:10:37.787Z",
               "EditorCaption": ""
             }
           ]

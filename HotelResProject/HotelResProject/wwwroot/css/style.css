@@ -232,7 +232,7 @@ header.sticky ul li a {
 }
 
 .home {
-  background-image: url("../image/deneme.jpg");
+  background-image: url("images/deneme.jpg");
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -244,12 +244,12 @@ header.sticky ul li a {
 .home h1 {
   font-family: 'Great Vibes', cursive;
   font-size: 150px;
-  color: white;
+  color: black;
   padding-top: 10%;
 }
 
 .home p {
-  color: white;
+  color: black;
 }
 
 .home .content {

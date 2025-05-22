@@ -1,0 +1,79 @@
+@model EntityLayer.Entities.Booking
+
+@{
+    ViewData["Title"] = "Booking Confirmation";
+}
+
+<div class="container mt-5" style="background-color:#f5f8fa; min-height:100vh; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow rounded">
+                <div class="card-body text-center">
+                    <div class="mb-4">
+                        <i class="fas fa-check-circle text-success" style="font-size: 4rem;"></i>
+                    </div>
+                    <h1 class="mb-4 p-3 rounded" style="background:#24416B; color:white;">Booking Confirmed!</h1>
+                    <p class="lead mb-4">Thank you for choosing our hotel. Your reservation has been successfully confirmed.</p>
+                    
+                    <div class="booking-details text-start" style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin-top: 20px;">
+                        <h4 class="mb-3">Booking Details</h4>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><strong>Room Type:</strong> @Model.RoomType.RoomName</p>
+                                <p><strong>Check-in Date:</strong> @Model.CheckInDate.ToShortDateString()</p>
+                                <p><strong>Check-out Date:</strong> @Model.CheckOutDate.ToShortDateString()</p>
+                            </div>
+                            <div class="col-md-6">
+                                @{
+                                    var nights = (Model.CheckOutDate - Model.CheckInDate).Days;
+                                    var totalPrice = nights * Model.RoomType.RoomPrice;
+                                }
+                                <p><strong>Total Price:</strong> $@totalPrice</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <p><strong>Booking Reference:</strong> BK@(Model.BookingId.ToString("D6"))</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-5">
+                        <p>A confirmation email has been sent to your email address.</p>
+                        <div class="mt-4">
+                            <a href="@Url.Action("Index", "Home")" class="btn btn-primary" style="padding:12px 30px;">Return to Home</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .card {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .booking-details {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .btn-primary {
+            padding: 12px 30px;
+        }
+
+        .text-success {
+            color: #28a745 !important;
+        }
+
+        .lead {
+            font-size: 1.2rem;
+            color: #6c757d;
+        }
+    </style>
+} 

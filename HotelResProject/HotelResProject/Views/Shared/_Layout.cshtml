@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="~/js/jquery.countdown.js" asp-append-version="true" />
     <link rel="stylesheet" href="~/js/jquery.countdown.min.js" asp-append-version="true" />
     <link rel="stylesheet" href="~/HotelResProject.styles.css" asp-append-version="true" />
+    @RenderSection("Styles", required: false)
 </head>
 <body>
     <header>
@@ -25,7 +26,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy Policy</a>
                         </li>
                     </ul>
                 </div>
@@ -37,12 +38,6 @@
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - HotelResProject - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

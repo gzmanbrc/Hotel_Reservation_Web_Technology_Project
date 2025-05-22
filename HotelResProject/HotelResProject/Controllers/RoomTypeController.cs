@@ -17,18 +17,7 @@ namespace HotelResProject.Controllers
         public IActionResult Index()
         {
             var RoomTypeList = _context.Roomtypes
-                .Include(rt => rt.Room) // Room'ları dahil et
                 .ToList();
-
-            // RoomCount değerini hesapla ve kaydet
-            foreach (var roomType in RoomTypeList)
-            {
-                roomType.RoomCount = roomType.Room?.Count ?? 0;
-                _context.Roomtypes.Update(roomType);
-            }
-
-            _context.SaveChanges();
-
             return View(RoomTypeList);
         }
 

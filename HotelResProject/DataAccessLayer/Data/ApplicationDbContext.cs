@@ -11,9 +11,8 @@ namespace DataAccessLayer.Data
 {
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext>options):base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-
         }
 
         public DbSet<RoomType> Roomtypes { get; set; }
@@ -25,6 +24,52 @@ namespace DataAccessLayer.Data
         public DbSet<Payment> Payment { get; set; }
         public DbSet<User> Users { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
 
+            modelBuilder.Entity<Booking>(entity =>
+            {
+                entity.ToTable("Bookings");
+                
+                entity.HasKey(e => e.BookingId);
+                
+                entity.Property(e => e.Status)
+                    .IsRequired()
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.CheckInDate)
+                    .IsRequired()
+                    .HasColumnType("datetime2");
+
+                entity.Property(e => e.CheckOutDate)
+                    .IsRequired()
+                    .HasColumnType("datetime2");
+
+                entity.Property(e => e.BookingDate)
+                    .IsRequired()
+                    .HasColumnType("datetime2");
+
+                entity.HasOne(e => e.RoomType)
+                    .WithMany()
+                    .HasForeignKey(e => e.RoomTypeId)
+                    .OnDelete(DeleteBehavior.Restrict);
+
+                entity.HasOne(e => e.Room)
+                    .WithMany()
+                    .HasForeignKey(e => e.RoomId)
+                    .OnDelete(DeleteBehavior.Restrict);
+
+                entity.HasOne(e => e.User)
+                    .WithMany()
+                    .HasForeignKey(e => e.UserId)
+                    .OnDelete(DeleteBehavior.Restrict);
+
+                entity.HasOne(e => e.Customer)
+                    .WithMany()
+                    .HasForeignKey(e => e.CustomerId)
+                    .OnDelete(DeleteBehavior.Restrict);
+            });
+        }
     }
 }

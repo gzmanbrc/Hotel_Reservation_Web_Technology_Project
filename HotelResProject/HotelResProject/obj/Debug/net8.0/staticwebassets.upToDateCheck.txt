@@ -2428,6 +2428,34 @@ wwwroot\Admin\starter.html
 wwwroot\css\site.css
 wwwroot\css\style.css
 wwwroot\favicon.ico
+wwwroot\images\a.png
+wwwroot\images\aera.jpg
+wwwroot\images\b1.jpg
+wwwroot\images\b2.jpg
+wwwroot\images\b3.jpg
+wwwroot\images\c1.jpg
+wwwroot\images\c2.jpg
+wwwroot\images\c3.jpg
+wwwroot\images\deneme.jpg
+wwwroot\images\g1.jpg
+wwwroot\images\g2.jpg
+wwwroot\images\g3.jpg
+wwwroot\images\g4.jpg
+wwwroot\images\g5.jpg
+wwwroot\images\Gizelya Hotel (2).png
+wwwroot\images\Gizelya Hotel.png
+wwwroot\images\grilogo.png
+wwwroot\images\home.png
+wwwroot\images\line1.png
+wwwroot\images\line2.png
+wwwroot\images\o1.jpg
+wwwroot\images\o2.jpg
+wwwroot\images\o3.jpg
+wwwroot\images\o4.jpg
+wwwroot\images\r.jpg
+wwwroot\images\w.jpg
+wwwroot\images\w2.jpg
+wwwroot\images\w3.jpg
 wwwroot\js\jquery.countdown.js
 wwwroot\js\jquery.countdown.min.js
 wwwroot\js\site.js

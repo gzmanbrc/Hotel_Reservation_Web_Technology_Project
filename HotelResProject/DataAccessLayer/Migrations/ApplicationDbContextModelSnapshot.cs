@@ -39,19 +39,44 @@ namespace DataAccessLayer.Migrations
                     b.Property<DateTime>("CheckOutDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("CustomerId")
+                    b.Property<int?>("CustomerId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("CustomerId1")
                         .HasColumnType("int");
 
                     b.Property<int>("RoomId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("RoomId1")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RoomTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<int?>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("BookingId");
 
                     b.HasIndex("CustomerId");
 
+                    b.HasIndex("CustomerId1");
+
                     b.HasIndex("RoomId");
 
-                    b.ToTable("Bookings");
+                    b.HasIndex("RoomId1");
+
+                    b.HasIndex("RoomTypeId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Bookings", (string)null);
                 });
 
             modelBuilder.Entity("EntityLayer.Entities.Customer", b =>
@@ -311,20 +336,42 @@ namespace DataAccessLayer.Migrations
             modelBuilder.Entity("EntityLayer.Entities.Booking", b =>
                 {
                     b.HasOne("EntityLayer.Entities.Customer", "Customer")
-                        .WithMany("Booking")
+                        .WithMany()
                         .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("EntityLayer.Entities.Customer", null)
+                        .WithMany("Booking")
+                        .HasForeignKey("CustomerId1");
 
                     b.HasOne("EntityLayer.Entities.Room", "Room")
-                        .WithMany("Bookings")
+                        .WithMany()
                         .HasForeignKey("RoomId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
+
+                    b.HasOne("EntityLayer.Entities.Room", null)
+                        .WithMany("Bookings")
+                        .HasForeignKey("RoomId1");
+
+                    b.HasOne("EntityLayer.Entities.RoomType", "RoomType")
+                        .WithMany()
+                        .HasForeignKey("RoomTypeId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("EntityLayer.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.Navigation("Customer");
 
                     b.Navigation("Room");
+
+                    b.Navigation("RoomType");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("EntityLayer.Entities.Employees", b =>
